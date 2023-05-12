@@ -1,5 +1,4 @@
 const nodemailer = require("nodemailer");
-const formData = require("form-data");
 
 const config = require("./config");
 const transporter = nodemailer.createTransport({
