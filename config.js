@@ -23,9 +23,9 @@ module.exports = {
   NOTIFY_ON_DATE_BEFORE: process.env.NOTIFY_ON_DATE_BEFORE, // in ISO format i.e YYYY-MM-DD
 
   NOTIFY_EMAILS: process.env.NOTIFY_EMAILS, // comma separated list of emails
-  mailgun: {
-    USERNAME: process.env.MAILGUN_USERNAME,
-    DOMAIN: process.env.MAILGUN_DOMAIN,
-    API_KEY: process.env.MAILGUN_API_KEY,
+  smtp: {
+    HOST: process.env.SMTP_HOST,
+    USER: process.env.SMTP_USER,
+    PASS: process.env.SMTP_PASS
   }
 }
